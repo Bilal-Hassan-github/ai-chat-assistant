@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Chat Assistant</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<aside id="sidebar">
+  <button id="newChat">+ New chat</button>
+  <h3>History</h3>
+  <ul id="history"></ul>
+</aside>
+<main>
+  <header>
+    <span id="title">AI Chat Assistant</span>
+    <div class="controls">
+      <label>Tone
+        <select id="tone">
+          <option value="professional">Professional</option>
+          <option value="casual">Casual</option>
+          <option value="concise">Concise</option>
+        </select>
+      </label>
+      <button id="exportBtn" title="Export as Markdown">Export</button>
+    </div>
+  </header>
+  <div id="messages"></div>
+  <form id="form">
+    <textarea id="input" rows="1" placeholder="Type your message... (Enter to send)"></textarea>
+    <button id="send" type="submit">Send</button>
+    <button id="stop" type="button" hidden>Stop</button>
+  </form>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
