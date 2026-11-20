@@ -17,7 +17,7 @@ Requires Node 18+ and a running MongoDB (`MONGODB_URI`).
 - **Tone Toggle** (Professional / Casual / Concise): server validates the tone and injects it into the `system` prompt of every API call
 - **Extra 1 – Export to Markdown**: download any conversation
 - **Extra 2 – Stop generating**: cancels the upstream API call; partial reply is saved
-- Bonus: auto-titled chats, delete conversations, last-20-message context window
+- Bonus: auto-titled chats, delete conversations, last-20-message context window.
 
 ## Structure
 ```
